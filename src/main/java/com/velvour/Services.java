@@ -15,7 +15,7 @@ public final class Services {
 
     // ============ ID GENERATOR ============
     public static final class IdGen {
-        private static final AtomicInteger g = new AtomicInteger(1005);
+        private static final AtomicInteger g = new AtomicInteger(1006);
         private static final AtomicInteger b = new AtomicInteger(5005);
         private static final AtomicInteger t = new AtomicInteger(90003);
         public static String guest() { return "G" + g.incrementAndGet(); }
