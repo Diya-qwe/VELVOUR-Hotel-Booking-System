@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Velvour",
+      "request": "launch",
+      "mainClass": "com.velvour.Launcher",
+      "projectName": "velvour"
+    }
+  ]
+}
